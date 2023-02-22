@@ -1,0 +1,37 @@
+body{
+  display:flex;
+  justify-content: center;
+}
+
+.container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.card-black{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70px;
+  height: 70px;
+  background-color:rgb(25, 68, 25);
+}
+
+.card-white{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70px;
+  height: 70px;
+  background-color:rgb(188, 187, 187);
+}
+
+.card-chosen{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  background-color:rgb(177, 177, 30);
+}
